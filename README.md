@@ -76,7 +76,7 @@ The proposed framework consists of three key components:
 
 
 <p align="center">
-<img src="./figures/framework.png" width="95%">
+<img src="./framework.png" width="95%">
 </p>
 
 
