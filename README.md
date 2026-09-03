@@ -1,76 +1,124 @@
 # MIM-SPCL
 
-Official implementation of:
+<div align="center">
 
-**Masked Image Modeling Advanced Spatial Prototype Contrastive Learning For Limited-Source Domain Adaptation**
+<h3>
+Masked Image Modeling Advanced Spatial Prototype Contrastive Learning 
+for Limited-Source Domain Adaptation
+</h3>
 
 
-## Introduction
+<p align="center">
+
+<a href="">
+<img src="https://img.shields.io/badge/Paper-TIP-red">
+</a>
+
+<a href="">
+<img src="https://img.shields.io/badge/Code-coming%20soon-blue">
+</a>
+
+<a href="">
+<img src="https://img.shields.io/badge/Task-Domain%20Adaptation-green">
+</a>
+
+<a href="">
+<img src="https://img.shields.io/badge/Framework-PyTorch-orange">
+</a>
+
+</p>
+
+
+<p align="center">
+🚀 Official implementation will be released soon.
+</p>
+
+
+</div>
+
+
+---
+
+## 🌟 Overview
 
 Limited-source domain adaptation (LSDA) aims to transfer knowledge from a limited labeled source domain to an unlabeled target domain under domain shift.
 
 In this work, we propose **MIM-SPCL**, a novel framework that explores spatial discriminative patterns from limited labeled samples and integrates domain-invariant and domain-specific information for effective cross-domain knowledge transfer.
 
+
 The proposed framework consists of three key components:
 
-- **Spatial Prototype Contrastive Learning (SPCL)**  
+- 🧩 **Spatial Prototype Contrastive Learning (SPCL)**
+
   Explores cross-domain consistent spatial discriminative patterns by leveraging a hybrid CNN-ViT architecture.
 
-- **Low-Ratio Masked Image Modeling (LR-MIM)**  
+
+- 🖼️ **Low-Ratio Masked Image Modeling (LR-MIM)**
+
   Learns target-domain-specific information from unlabeled data through lightweight reconstruction.
 
-- **Pseudo-Label Optimization**  
-  Refines pseudo-labels to provide more reliable supervision for target-domain adaptation.
 
-The framework achieves superior performance on both natural and remote sensing scene benchmarks.
+- 🎯 **Pseudo-Label Optimization**
 
-
-## News
-
-🚀 Code will be released soon.
+  Refines pseudo-labels to provide reliable supervision for target-domain adaptation.
 
 
-## Method Overview
+---
+
+## 🔥 News
+
+- 🚀 **[Coming Soon]** The source code and pretrained models will be publicly available.
+
+
+---
+
+## 🏗️ Method Overview
+
 
 <p align="center">
-<img src="./figures/framework.png" width="90%">
+<img src="./figures/framework.png" width="95%">
 </p>
 
 
-## Dataset
+The proposed MIM-SPCL framework contains three main modules:
 
-Experiments are conducted on:
+1. **Hybrid Model for Spatial Prototype Contrastive Learning**
 
-### Natural Scene
+2. **Domain-Specific Information Learning via Low-Ratio MIM**
+
+3. **Pseudo-Label Optimization**
+
+
+---
+
+## 📊 Benchmark Datasets
+
+
+We evaluate MIM-SPCL on both natural and remote sensing scene benchmarks.
+
+
+### 🌎 Natural Scene
 
 - Office-Home
 
 
-### Remote Sensing Scene
+### 🛰️ Remote Sensing Scene
 
 - AID
 - NWPU
 - UCM
 
 
-## Installation
+---
 
-The installation instructions will be released after the code publication.
-
-
-## Results
-
-The experimental results and pretrained models will be released soon.
+## ⚙️ Installation
 
 
-## Citation
+The implementation is based on PyTorch.
 
-If you find this work useful, please consider citing:
+Installation instructions will be provided after code release.
 
-```bibtex
-@article{che2026mimspcl,
-  title={Masked Image Modeling Advanced Spatial Prototype Contrastive Learning For Limited-Source Domain Adaptation},
-  author={Che, Zhihao and Zhu, Guiying and Zhang, Tong and others},
-  journal={IEEE Transactions on Image Processing},
-  year={2026}
-}
+
+```bash
+conda create -n mimspcl python=3.9
+conda activate mimspcl
